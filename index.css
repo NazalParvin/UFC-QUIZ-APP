@@ -1,0 +1,95 @@
+html {
+    background-image: url("8wGPIl.jpg"); 
+    height: 100%;
+    margin: 0; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#ufcbelt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+}
+
+p, h2, .questions-page, .answer-feedback-page, .final-feedback-page, .current-question{
+    text-align: center;
+    font-size: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.choices {
+    
+    
+    
+    border: 0px;
+
+}
+
+.user-was-correct::before {
+    content: "Excellent! You are ";
+}
+
+.user-was-correct::after {
+    content: "!";
+}
+
+.user-was-incorrect::before {
+    content: "You are ";
+}
+
+.user-was-correct {
+    font-size: 20px;
+    color: gold;
+    font-weight: bold;
+}
+
+.user-was-incorrect {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    width: auto;
+    background-color:red;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+    display:block;
+
+}
+
+button:hover {
+    background-color:grey;
+}
+
+
+
+.explanation {
+   padding: 25px;
+   margin: auto;
+}
+
+.current-score {
+   font-family: "Arial";
+   color: white;
+   font-weight: bold;
+   font-size: 24px;
+}

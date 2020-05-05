@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+	<title>Thinkful Quiz App</title>
+     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="start-page">
+			<header> <img id = "ufcbelt" src="ufc belt.jpeg" alt="Picture of UFC belt"></header>
+			<h2>Welcome to the UFC Challenge</h2>
+			<p>Do you have what it takes to survive in the octagon? Lets find out!</p>
+			<form class="game-start">
+				<button type="submit" class="btn1">Lets Get Ready To Rumble!!</button>
+			</form>
+		</div>
+
+
+
+		<div class="questions-page">
+			<h3><span class="question-count"></span> : <span class="question-text"></span></h3>
+			<form name="current-question">
+				<fieldset class="choices">
+          <legend>Question Choices</legend>
+        </fieldset>
+				<button type="submit">Submit</button>	
+				<button class="restart-game">New Game</button>		
+			</form>
+		</div>
+
+		<div class="answer-feedback-page">
+			<div class="feedback-container">
+				<div class="feedback-header"></div>
+				<div class="explanation"></div>
+				<p class="feedback-text"></p>
+				<button class="see-next"></button>
+			</div>	
+		</div>
+
+        <div class="current-score"></div>	
+
+		<div class="final-feedback-page">
+			<h1>Results</h1>
+			<p class="results-text"></p>
+			<button class="restart-game">Start Over</button>
+		</div>
+
+	</div>
+
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+	<script src= "Index2.js"></script>
+	<script src = "index.js"> </script>
+
+</body>
+</html>
